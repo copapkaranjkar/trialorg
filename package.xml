@@ -5,8 +5,8 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Account-Account Layout</members>
-        <name>Layout</name>
+        <members>MarketingProfile</members>
+        <name>Profile</name>
     </types>
     <version>52.0</version>
 </Package>
