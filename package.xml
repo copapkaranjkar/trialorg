@@ -3,6 +3,7 @@
     <types>
         <members>PK_Env_Var2</members>
         <members>PK_Var1</members>
+        <members>copado__ACCOUNT_SUMMARY</members>
         <name>CustomLabel</name>
     </types>
     <version>52.0</version>
