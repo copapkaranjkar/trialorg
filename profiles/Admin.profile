@@ -76,11 +76,6 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__LightningInstrumentation</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__LightningSales</application>
         <default>false</default>
         <visible>true</visible>
@@ -4171,26 +4166,6 @@
         <enabled>true</enabled>
         <name>copado__TestType__mdt</name>
     </customMetadataTypeAccesses>
-    <customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>test_MDT__mdt</name>
-    </customMetadataTypeAccesses>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Edit_Git_Promotion_Step</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Edit_Quality_Gate_Step</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Edit_User_Story_Commit_Base_Branch</name>
-    </customPermissions>
-    <customPermissions>
-        <enabled>true</enabled>
-        <name>copado__Enable_Vlocity_Integration</name>
-    </customPermissions>
     <customSettingAccesses>
         <enabled>true</enabled>
         <name>copado__Automation_Template_For_CLI__c</name>
@@ -4312,22 +4287,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.UseCase2__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Use_Case_1__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.Website</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.usecase4__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4701,11 +4661,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.ClosedOnCreate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Case.ContactId</field>
         <readable>true</readable>
@@ -5028,11 +4983,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ContactPointAddress.UsageType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ContactPointConsent.ContactPointTypeConsentId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5402,21 +5352,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>DataUsePurpose.IsMaintainablePerContactPoint</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>DataUsePurpose.IsMaintainablePerParty</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>DataUsePurpose.IsMaintainablePerType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>DataUsePurpose.LegalBasisId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -5534,11 +5469,6 @@
         <editable>true</editable>
         <field>Event.WhoId</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Idea.Attachment</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -5907,11 +5837,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>LiveChatTranscript.Lifecycle</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>LiveChatTranscript.LiveChatButtonId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -6078,11 +6003,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>MessagingEndUser.HasInitialResponseSent</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MessagingEndUser.IsOptedOut</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -12090,11 +12010,6 @@
         <field>copado__User_Story__c.copado__userStory_reason__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>test_MDT__mdt.MDT1__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -12119,9 +12034,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>BusinessBrand-Business Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
@@ -12167,9 +12079,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContractLineItem-Contract Line Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Customer-Customer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DataUseLegalBasis-Data Use Legal Basis Layout</layout>
@@ -12291,9 +12200,6 @@
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Seller-Seller Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>ServiceContract-Service Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -12343,9 +12249,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkThanks-Thanks Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>test_MDT__mdt-test MDT Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -12876,15 +12779,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Individual</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Knowledge__ka</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -14579,15 +14473,6 @@
         <object>copado__User_Story__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>false</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>test_MDT__mdt</object>
-        <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
     <pageAccesses>
         <apexPage>NonEssentialsMobileLanding</apexPage>
         <enabled>true</enabled>
@@ -15250,16 +15135,6 @@
     </pageAccesses>
     <recordTypeVisibilities>
         <default>true</default>
-        <recordType>Account.UseCase</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>true</default>
         <recordType>Knowledge__kav.FAQ</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -15786,10 +15661,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Event</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-File</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -15846,23 +15717,11 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-MessagingEndUser</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-MessagingSession</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Opportunity</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Order</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-OrgMetric</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -15934,19 +15793,11 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Task</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-UserProfile</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-VoiceCall</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -16445,10 +16296,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageRoles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageSandboxes</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
