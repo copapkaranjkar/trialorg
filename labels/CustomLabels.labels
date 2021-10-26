@@ -1,3 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>PK_Env_Var2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PK Env Var2</shortDescription>
+        <value>{!Environment.PKEnvVar3}ev</value>
+    </labels>
+    <labels>
+        <fullName>PK_Var1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PK Var1</shortDescription>
+        <value>{!Environment.PKEnvVar}</value>
+    </labels>
+    <labels>
+        <fullName>POC_Variable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POC-Variable</shortDescription>
+        <value>{!Environment.POC-Variable}</value>
+    </labels>
+    <labels>
+        <fullName>POC_Variable_4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POC-Variable-4</shortDescription>
+        <value>{!Environment.POC-Variable-4}</value>
+    </labels>
+    <labels>
+        <fullName>POC_Variable_5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POC-Variable-5</shortDescription>
+        <value>{!Environment.POC-Variable-5}</value>
+    </labels>
+</CustomLabels>
