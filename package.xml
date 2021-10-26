@@ -11,5 +11,15 @@
         <members>CaseInteraction-Case Feed Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>Admin</members>
+        <members>ContractManager</members>
+        <members>MarketingProfile</members>
+        <members>Minimum Access - Salesforce</members>
+        <members>Read Only</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <name>Profile</name>
+    </types>
     <version>52.0</version>
 </Package>
