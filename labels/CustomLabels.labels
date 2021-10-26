@@ -19,13 +19,13 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>POC-Variable</shortDescription>
-        <value>{!Environment.POC-Variable-4}</value>
+        <value>{!Environment.POC-Variable}</value>
     </labels>
     <labels>
         <fullName>POC_Variable_4</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>POC-Variable-4</shortDescription>
-        <value>{!Environment.POC-Variable-4}.Dev4</value>
+        <value>{!Environment.POC-Variable-4}</value>
     </labels>
 </CustomLabels>
