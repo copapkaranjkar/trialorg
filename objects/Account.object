@@ -331,6 +331,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Use_Case_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Use Case 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
