@@ -4,6 +4,10 @@
     <dataCategory>
         <dataCategory>
             <dataCategory>
+                <label>Brazil</label>
+                <name>Brazil</name>
+            </dataCategory>
+            <dataCategory>
                 <label>US</label>
                 <name>US</name>
             </dataCategory>
