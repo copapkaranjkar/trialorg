@@ -5,7 +5,7 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>PK Env Var2</shortDescription>
-        <value>{!Environment.PKEnvVar3}ev</value>
+        <value>{!Environment.PKEnvVar2}</value>
     </labels>
     <labels>
         <fullName>PK_Var1</fullName>
