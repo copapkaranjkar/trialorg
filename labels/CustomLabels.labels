@@ -28,4 +28,11 @@
         <shortDescription>POC-Variable-4</shortDescription>
         <value>{!Environment.POC-Variable-4}</value>
     </labels>
+    <labels>
+        <fullName>POC_Variable_5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POC-Variable-5</shortDescription>
+        <value>{!Environment.POC-Variable-5}</value>
+    </labels>
 </CustomLabels>
