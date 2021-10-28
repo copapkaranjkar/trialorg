@@ -39,6 +39,10 @@
             <name>EMEA</name>
         </dataCategory>
         <dataCategory>
+            <dataCategory>
+                <label>INDIA</label>
+                <name>INDIA</name>
+            </dataCategory>
             <label>APAC</label>
             <name>APAC</name>
         </dataCategory>
